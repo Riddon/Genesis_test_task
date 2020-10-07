@@ -19,6 +19,7 @@ const GamePage = () => {
     let [selectedAnswer, setSelectedAnswer] = useState("");
     let [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
     let [showWrongAnswer, setShowWrongAnswer] = useState(false);
+    let [hovered, setHovered] = useState(true);
     let timeoutCorrectAnswer;
     let timeoutWrongAnswer;
 
@@ -33,6 +34,7 @@ const GamePage = () => {
 
     const checkAnswer = (data) => {
         setSelectedAnswer(data);
+        setHovered(false);
 
         timeoutCorrectAnswer = setTimeout(()=>{
             setShowCorrectAnswer(true);
@@ -60,6 +62,7 @@ const GamePage = () => {
                         setSelectedAnswer("");
                         setShowCorrectAnswer(false);
                         setShowWrongAnswer(false);
+                        setHovered(true);
 
                         dispatch(totalScoreActions.setTotalScore(currentQuestionInfo.money));
                     } else {
@@ -73,19 +76,23 @@ const GamePage = () => {
         <div className="game-page">
             <Hamburger
                 openMenu={openMenu}
-                onClick={showMenu}/>
+                onClick={showMenu}
+            />
 
             <QuestionContent
                 currentQuestion={currentQuestionInfo}
                 onClick={changeQuestion}
                 selectedAnswer={selectedAnswer}
                 showCorrectAnswer={showCorrectAnswer}
-                showWrongAnswer={showWrongAnswer}/>
+                showWrongAnswer={showWrongAnswer}
+                hovered={hovered}
+            />
 
             <EarnedList
                 openMenu={openMenu}
                 questionList={generalQuestionList}
-                currentQuestion={questionNumber}/>
+                currentQuestion={questionNumber}
+            />
         </div>
     );
 };

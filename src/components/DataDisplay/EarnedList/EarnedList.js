@@ -1,6 +1,7 @@
 import React from "react";
-import "./EarnedList.css";
 import propTypes from "prop-types";
+import "./EarnedList.css";
+
 
 const EarnedList = (props) => {
 

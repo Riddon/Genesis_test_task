@@ -45,10 +45,9 @@
     font-size: 14px;
     line-height: 116%;
     text-align: center;
-    background: #fff;
-    border: 1px solid #D0D0D8;
+    background: #fff url("../../../images/border_default.png") 50% 50% no-repeat;
+    background-size: 100% 100%;
     z-index: 9;
-    overflow: hidden;
 }
 
 .earner-list-item-content--earned {
@@ -57,7 +56,8 @@
 
 .earner-list-item-content--current {
     color: #FF8B37;
-    border: 1px solid #FF8B37;
+    background: url("../../../images/border_selected.png") 50% 50% no-repeat;
+    background-size: 100% 100%;
 }
 
 .earner-list-item-line {

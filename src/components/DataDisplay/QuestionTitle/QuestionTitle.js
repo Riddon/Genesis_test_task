@@ -1,4 +1,5 @@
 import React from "react";
+import propTypes from "prop-types";
 import "./QuestionTitle.css";
 
 const QuestionTitle = (props) => {
@@ -10,6 +11,10 @@ const QuestionTitle = (props) => {
             {title}
         </p>
     );
+};
+
+QuestionTitle.propTypes = {
+    title: propTypes.string
 };
 
 export default QuestionTitle;
