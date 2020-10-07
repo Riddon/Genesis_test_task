@@ -5,7 +5,7 @@ import AnswerList from "../AnswerList/AnswerList";
 
 const QuestionContent = (props) => {
 
-    const {currentQuestion, onClick} = props;
+    const {currentQuestion, onClick, selectedAnswer, showCorrectAnswer, showWrongAnswer} = props;
 
     return (
         <div className="question-content">
@@ -14,6 +14,9 @@ const QuestionContent = (props) => {
                 answerList={currentQuestion.answers}
                 correctAnswer={currentQuestion.correctAnswer}
                 onClick={onClick}
+                selectedAnswer={selectedAnswer}
+                showCorrectAnswer={showCorrectAnswer}
+                showWrongAnswer={showWrongAnswer}
             />
         </div>
     );
