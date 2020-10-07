@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React, {useEffect, useState} from "react";
 import { useHistory } from "react-router-dom";
 import "./GamePage.css";
 import Hamburger from "../../General/Hamburger/Hamburger";
@@ -15,9 +15,32 @@ const GamePage = () => {
     let currentQuestionInfo = {};
     let history = useHistory();
 
+    let [selectedAnswer, setSelectedAnswer] = useState("");
+    let [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
+    let [showWrongAnswer, setShowWrongAnswer] = useState(false);
+    let timeoutCorrectAnswer;
+    let timeoutWrongAnswer;
+
+    useEffect(()=>{
+        clearTimeout(timeoutCorrectAnswer);
+        clearTimeout(timeoutWrongAnswer);
+    });
+
     if(generalQuestionList.length > 0) {
         currentQuestionInfo = generalQuestionList.find(item => item.id === questionNumber);
     }
+
+    const checkAnswer = (data) => {
+        setSelectedAnswer(data);
+
+        timeoutCorrectAnswer = setTimeout(()=>{
+            setShowCorrectAnswer(true);
+        }, 2000);
+
+        timeoutWrongAnswer = setTimeout(()=>{
+            setShowWrongAnswer(true);
+        }, 2000);
+    };
 
     const showMenu = () => {
         setOpenMenu(!openMenu);
@@ -26,10 +49,16 @@ const GamePage = () => {
     const changeQuestion = (data) => {
 
         if (questionNumber > 0 && questionNumber <= generalQuestionList.length) {
+
+            checkAnswer(data);
+
             setTimeout(
                 () => {
                     if (data === currentQuestionInfo.correctAnswer) {
                         setQuestionNumber(questionNumber + 1);
+                        setSelectedAnswer("");
+                        setShowCorrectAnswer(false);
+                        setShowWrongAnswer(false);
                     } else {
                         history.push(routes.result.href);
                     }
@@ -43,7 +72,12 @@ const GamePage = () => {
                 openMenu={openMenu}
                 onClick={showMenu}/>
 
-            <QuestionContent currentQuestion={currentQuestionInfo} onClick={changeQuestion}/>
+            <QuestionContent
+                currentQuestion={currentQuestionInfo}
+                onClick={changeQuestion}
+                selectedAnswer={selectedAnswer}
+                showCorrectAnswer={showCorrectAnswer}
+                showWrongAnswer={showWrongAnswer}/>
 
             <EarnedList
                 openMenu={openMenu}
