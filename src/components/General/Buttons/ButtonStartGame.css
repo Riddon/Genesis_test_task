@@ -1,0 +1,44 @@
+.button-start-game {
+    width: 288px;
+    height: 48px;
+    margin: 0 auto;
+    padding: 0;
+    background: #FF8B37;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-start-game:hover {
+    background: #FFAC70;
+}
+
+.button-start-game:focus,
+.button-start-game:active {
+    background: #E87928;
+}
+
+.button-start-game-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*Media screen 1024px*/
+@media screen and (min-width: 1024px) {
+    .button-start-game {
+        width: 296px;
+        margin: 0;
+    }
+}

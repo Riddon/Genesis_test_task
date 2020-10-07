@@ -1,0 +1,14 @@
+.question-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #F5F5F7;
+}
+
+/*Media screen 1024px*/
+@media screen and (min-width: 1024px) {
+    .question-content {
+        width: 100%;
+        height: 100vh;
+    }
+}

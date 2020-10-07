@@ -1,0 +1,19 @@
+.answer-list {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 640px;
+    max-height: 50%;
+    margin: 0 auto;
+    background: #F5F5F7;
+}
+
+/*Media screen 1024px*/
+@media screen and (min-width: 1024px) {
+    .answer-list {
+        align-items: center;
+        max-width: 850px;
+        margin: auto 80px;
+    }
+}

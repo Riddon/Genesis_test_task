@@ -1,0 +1,25 @@
+.question-title {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    padding: 0 16px;
+    color: #1C1C21;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 116%;
+    text-align: center;
+}
+
+/*Media screen 1024px*/
+@media screen and (min-width: 1024px) {
+    .question-title {
+        display: block;
+        padding: 180px 80px 0 80px;
+        font-size: 32px;
+        text-align: start;
+    }
+}

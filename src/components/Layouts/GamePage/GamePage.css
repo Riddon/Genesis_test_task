@@ -1,0 +1,16 @@
+.game-page {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    background: #F5F5F7;
+    overflow-x: hidden;
+}
+
+/*Media screen 1024px*/
+@media screen and (min-width: 1024px) {
+    .game-page {
+        display: flex;
+        justify-content: space-between;
+        overflow: auto;
+    }
+}

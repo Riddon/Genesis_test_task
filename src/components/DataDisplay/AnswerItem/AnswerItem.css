@@ -1,0 +1,81 @@
+.answer-list-item {
+    width: 320px;
+    height: 58px;
+    margin-bottom: 8px;
+    position: relative;
+    list-style: none;
+}
+
+.answer-list-item-content {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 0 17px;
+    padding: 20px 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 116%;
+    background: #fff;
+    border: 1px solid #D0D0D8;
+    z-index: 2;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.answer-list-item-number {
+    margin-right: 8px;
+    color: #FF8B37;
+    font-weight: 600;
+}
+
+.answer-list-item-content--selected {
+    background: #FFF3EB;
+    border: 1px solid #FF8B37;
+}
+
+.answer-list-item-content--correct {
+    background: #E6FAEA;
+    border: 1px solid #47D867;
+}
+
+.answer-list-item-content--wrong {
+    background: #FDEEED;
+    border: 1px solid #EC6259;
+}
+
+.answer-list-item-line {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #D0D0D8;
+    z-index: 1;
+}
+
+.answer-list-item-line--selected {
+    border-top: 1px solid #FF8B37;
+}
+
+.answer-list-item-line--correct {
+    border-top: 1px solid #47D867;
+}
+
+.answer-list-item-line--wrong {
+    border-top: 1px solid #EC6259;
+}
+
+/*Media screen 1024px*/
+@media screen and (min-width: 1024px) {
+
+    .answer-list-item {
+        width: 421px;
+        height: 72px;
+    }
+
+    .answer-list-item-content {
+        padding: 24px 48px 24px 32px;
+        font-size: 20px;
+    }
+}

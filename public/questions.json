@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "question": "What sort of animal is Walt Disney's Dumbo?",
+    "answers": ["Deer", "Rabbit", "Elephant", "Monkey"],
+    "correctAnswer": "Elephant",
+    "money": "500"
+  },
+  {
+    "id": 2,
+    "question": "The hammer and sickle is one of the most recognisable symbols of which political ideology?",
+    "answers": ["Communism", "Republicanism", "Conservatism", "Liberalism"],
+    "correctAnswer": "Communism",
+    "money": "1,000"
+  },
+  {
+    "id": 3,
+    "question": "Which legendary actor played Jimmy Hoffa in Martin Scorsese’s 2019 film The Irishman?",
+    "answers": ["Bobby Cannavale", "Joseph Frank Pesci", "Robert De Niro", "Al Pacino"],
+    "correctAnswer": "Al Pacino",
+    "money": "2,000"
+  },
+  {
+    "id": 4,
+    "question": "What is the smallest planet in our solar system?",
+    "answers": ["Venus", "Mercury", "Earth", "Mars"],
+    "correctAnswer": "Mercury",
+    "money": "4,000"
+  },
+  {
+    "id": 5,
+    "question": "What is the capital of China?",
+    "answers": ["Macau", "Peking", "Shanghai", "Hong Kong"],
+    "correctAnswer": "Peking",
+    "money": "8,000"
+  },
+  {
+    "id": 6,
+    "question": "What’s the chemical symbol for silver?",
+    "answers": ["Ag", "Zn", "Fe", "Si"],
+    "correctAnswer": "Ag",
+    "money": "16,000"
+  },
+  {
+    "id": 7,
+    "question": "Which popular video game franchise has released games with the subtitles World At War and Black Ops?",
+    "answers": ["World of Tanks", "Call of Duty", "Battlefield", "Medal of honor"],
+    "correctAnswer": "Call of Duty",
+    "money": "32,000"
+  },
+  {
+    "id": 8,
+    "question": "If you have cryophobia, what are you afraid of?",
+    "answers": ["Fire", "Water", "Animals", "Ice/cold"],
+    "correctAnswer": "Ice/cold",
+    "money": "64,000"
+  },
+  {
+    "id": 9,
+    "question": "Which European city hosted the 1936 Summer Olympics?",
+    "answers": ["Paris", "Berlin", "Moscow", "New York"],
+    "correctAnswer": "Berlin",
+    "money": "125,000"
+  },
+  {
+    "id": 10,
+    "question": "What the name the composer behind the soundtracks of The Lion King, Inception and Pirates of the Caribbean.",
+    "answers": ["Hanz Zimmer", "John Williams", "Ennio Morricone", "Gustavo Santaolalla"],
+    "correctAnswer": "Hanz Zimmer",
+    "money": "250,000"
+  },
+  {
+    "id": 11,
+    "question": "A screwdriver cocktail is orange juice, ice and which spirit?",
+    "answers": ["Tequila", "Vodka", "Gin", "Кum"],
+    "correctAnswer": "Vodka",
+    "money": "500,000"
+  },
+  {
+    "id": 12,
+    "question": "Gordon Sumner is the real name of what famous British musician?",
+    "answers": ["Van Morrison", "Sting", "Eric Clapton", "Keith Richards"],
+    "correctAnswer": "Sting",
+    "money": "1,000,000"
+  }
+]
