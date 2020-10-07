@@ -60,7 +60,7 @@ const GamePage = () => {
                         setSelectedAnswer("");
                         setShowCorrectAnswer(false);
                         setShowWrongAnswer(false);
-                        console.log(currentQuestionInfo.money);
+
                         dispatch(totalScoreActions.setTotalScore(currentQuestionInfo.money));
                     } else {
                         history.push(routes.result.href);
