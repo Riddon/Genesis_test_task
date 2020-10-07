@@ -3,9 +3,10 @@ import { useHistory } from "react-router-dom";
 import "./GamePage.css";
 import Hamburger from "../../General/Hamburger/Hamburger";
 import EarnedList from "../../DataDisplay/EarnedList/EarnedList";
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import QuestionContent from "../../DataDisplay/QuestionContent/QuestionContent";
 import {routes} from '../../../constants/constRoutes';
+import * as totalScoreActions from "../../../actions/totalScoreActions";
 
 const GamePage = () => {
 
@@ -14,7 +15,7 @@ const GamePage = () => {
     const [questionNumber, setQuestionNumber] = useState(1);
     let currentQuestionInfo = {};
     let history = useHistory();
-
+    const dispatch = useDispatch();
     let [selectedAnswer, setSelectedAnswer] = useState("");
     let [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
     let [showWrongAnswer, setShowWrongAnswer] = useState(false);
@@ -59,6 +60,8 @@ const GamePage = () => {
                         setSelectedAnswer("");
                         setShowCorrectAnswer(false);
                         setShowWrongAnswer(false);
+                        console.log(currentQuestionInfo.money);
+                        dispatch(totalScoreActions.setTotalScore(currentQuestionInfo.money));
                     } else {
                         history.push(routes.result.href);
                     }
