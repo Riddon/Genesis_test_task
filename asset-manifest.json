@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Riddon/Genesis_test_task.git/static/css/main.d8687f18.chunk.css",
-    "main.js": "/Riddon/Genesis_test_task.git/static/js/main.43ed680d.chunk.js",
-    "main.js.map": "/Riddon/Genesis_test_task.git/static/js/main.43ed680d.chunk.js.map",
-    "runtime-main.js": "/Riddon/Genesis_test_task.git/static/js/runtime-main.0c5225f3.js",
-    "runtime-main.js.map": "/Riddon/Genesis_test_task.git/static/js/runtime-main.0c5225f3.js.map",
-    "static/js/2.b4fa1e2e.chunk.js": "/Riddon/Genesis_test_task.git/static/js/2.b4fa1e2e.chunk.js",
-    "static/js/2.b4fa1e2e.chunk.js.map": "/Riddon/Genesis_test_task.git/static/js/2.b4fa1e2e.chunk.js.map",
-    "index.html": "/Riddon/Genesis_test_task.git/index.html",
-    "precache-manifest.0ad9427a814c2cb8412f58121ecad240.js": "/Riddon/Genesis_test_task.git/precache-manifest.0ad9427a814c2cb8412f58121ecad240.js",
-    "service-worker.js": "/Riddon/Genesis_test_task.git/service-worker.js",
-    "static/css/main.d8687f18.chunk.css.map": "/Riddon/Genesis_test_task.git/static/css/main.d8687f18.chunk.css.map",
-    "static/js/2.b4fa1e2e.chunk.js.LICENSE.txt": "/Riddon/Genesis_test_task.git/static/js/2.b4fa1e2e.chunk.js.LICENSE.txt",
-    "static/media/home_page_hand.png": "/Riddon/Genesis_test_task.git/static/media/home_page_hand.2be9a6ee.png"
+    "main.css": "/Genesis_test_task/static/css/main.d8687f18.chunk.css",
+    "main.js": "/Genesis_test_task/static/js/main.88d83cff.chunk.js",
+    "main.js.map": "/Genesis_test_task/static/js/main.88d83cff.chunk.js.map",
+    "runtime-main.js": "/Genesis_test_task/static/js/runtime-main.6696d235.js",
+    "runtime-main.js.map": "/Genesis_test_task/static/js/runtime-main.6696d235.js.map",
+    "static/js/2.b4fa1e2e.chunk.js": "/Genesis_test_task/static/js/2.b4fa1e2e.chunk.js",
+    "static/js/2.b4fa1e2e.chunk.js.map": "/Genesis_test_task/static/js/2.b4fa1e2e.chunk.js.map",
+    "index.html": "/Genesis_test_task/index.html",
+    "precache-manifest.3fbc38bba1825e5c10643c3487a3f4dc.js": "/Genesis_test_task/precache-manifest.3fbc38bba1825e5c10643c3487a3f4dc.js",
+    "service-worker.js": "/Genesis_test_task/service-worker.js",
+    "static/css/main.d8687f18.chunk.css.map": "/Genesis_test_task/static/css/main.d8687f18.chunk.css.map",
+    "static/js/2.b4fa1e2e.chunk.js.LICENSE.txt": "/Genesis_test_task/static/js/2.b4fa1e2e.chunk.js.LICENSE.txt",
+    "static/media/home_page_hand.png": "/Genesis_test_task/static/media/home_page_hand.2be9a6ee.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c5225f3.js",
+    "static/js/runtime-main.6696d235.js",
     "static/js/2.b4fa1e2e.chunk.js",
     "static/css/main.d8687f18.chunk.css",
-    "static/js/main.43ed680d.chunk.js"
+    "static/js/main.88d83cff.chunk.js"
   ]
 }
