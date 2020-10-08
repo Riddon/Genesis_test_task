@@ -8,6 +8,7 @@ const HomePage = () => {
     return (
         <div className="home-page">
             <div className="box-split">
+                {consss}
             </div>
 
             <img className="home-page-image" src={hand} alt="hand" />
