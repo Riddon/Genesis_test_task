@@ -55,9 +55,9 @@ const AnswerItem = (props) => {
 };
 
 AnswerItem.propTypes = {
-    answer: propTypes.array,
+    answer: propTypes.string,
     onClick: propTypes.func,
-    numberList: propTypes.object,
+    numberList: propTypes.string,
     selectedAnswer: propTypes.string,
     showCorrectAnswer: propTypes.bool,
     correctAnswer: propTypes.string,

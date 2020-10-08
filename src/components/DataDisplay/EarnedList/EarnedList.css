@@ -45,7 +45,7 @@
     font-size: 14px;
     line-height: 116%;
     text-align: center;
-    background: #fff url("../../../images/border_default.png") 50% 50% no-repeat;
+    background: #F5F5F7 url("../../../images/border_default.png") 50% 50% no-repeat;
     background-size: 100% 100%;
     z-index: 9;
 }
@@ -87,5 +87,16 @@
     .earner-list {
         margin: auto 0;
         padding: 0;
+    }
+
+    .earner-list-item-content {
+        background: #fff url("../../../images/border_default.png") 50% 50% no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .earner-list-item-content--current {
+        color: #FF8B37;
+        background: url("../../../images/border_selected.png") 50% 50% no-repeat;
+        background-size: 100% 100%;
     }
 }

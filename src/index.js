@@ -4,6 +4,7 @@ import {BrowserRouter} from "react-router-dom";
 import { Provider } from "react-redux";
 import App from "./containers/App";
 import ConfigStore from "./store/store";
+import * as serviceWorker from './serviceWorker';
 
 const rootElement = document.getElementById("root");
 const store = ConfigStore();
@@ -13,5 +14,7 @@ ReactDOM.render(
         <BrowserRouter>
             <App />
         </BrowserRouter>
-    </Provider>, rootElement);
+    </Provider>, rootElement
+);
 
+serviceWorker.unregister();
