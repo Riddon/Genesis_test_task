@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Genesis_test_task.git/static/css/main.d8687f18.chunk.css",
+    "main.js": "/Genesis_test_task.git/static/js/main.77fee483.chunk.js",
+    "main.js.map": "/Genesis_test_task.git/static/js/main.77fee483.chunk.js.map",
+    "runtime-main.js": "/Genesis_test_task.git/static/js/runtime-main.ec370c30.js",
+    "runtime-main.js.map": "/Genesis_test_task.git/static/js/runtime-main.ec370c30.js.map",
+    "static/js/2.b4fa1e2e.chunk.js": "/Genesis_test_task.git/static/js/2.b4fa1e2e.chunk.js",
+    "static/js/2.b4fa1e2e.chunk.js.map": "/Genesis_test_task.git/static/js/2.b4fa1e2e.chunk.js.map",
+    "index.html": "/Genesis_test_task.git/index.html",
+    "precache-manifest.3729841fe26f5b5464ab2cf638bc6dd9.js": "/Genesis_test_task.git/precache-manifest.3729841fe26f5b5464ab2cf638bc6dd9.js",
+    "service-worker.js": "/Genesis_test_task.git/service-worker.js",
+    "static/css/main.d8687f18.chunk.css.map": "/Genesis_test_task.git/static/css/main.d8687f18.chunk.css.map",
+    "static/js/2.b4fa1e2e.chunk.js.LICENSE.txt": "/Genesis_test_task.git/static/js/2.b4fa1e2e.chunk.js.LICENSE.txt",
+    "static/media/home_page_hand.png": "/Genesis_test_task.git/static/media/home_page_hand.2be9a6ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec370c30.js",
+    "static/js/2.b4fa1e2e.chunk.js",
+    "static/css/main.d8687f18.chunk.css",
+    "static/js/main.77fee483.chunk.js"
+  ]
+}
