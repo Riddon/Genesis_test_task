@@ -14,6 +14,9 @@ const AnswerItem = (props) => {
         if(e.target.classList.contains("answer-list-item-content")) {
             e.target.classList.add('answer-list-item-content--hover');
             e.target.previousSibling.classList.add('answer-list-item-line--hover');
+        } else if (e.target.parentElement.classList.contains("answer-list-item-content")) {
+            e.target.parentElement.classList.add('answer-list-item-content--hover');
+            e.target.parentElement.previousSibling.classList.add('answer-list-item-line--hover');
         }
     };
 
