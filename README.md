@@ -4,7 +4,7 @@
 
 If you want to have fun, you may play **`"Who wants to be a millionaire?"`**
 
-You need to click on _____
+You need to click on https://riddon.github.io/Genesis_test_task/
 
 ###### or 
 
